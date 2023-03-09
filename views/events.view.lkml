@@ -86,6 +86,7 @@ view: events {
 
   dimension: state {
     type: string
+    map_layer_name: countries
     sql: ${TABLE}.state ;;
   }
 
