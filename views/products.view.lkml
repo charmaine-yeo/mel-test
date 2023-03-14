@@ -63,8 +63,8 @@ view: products {
     sql: ${TABLE}.name ;;
   }
 
-  dimension: retail_price {
-    type: number
+  measure: retail_price {
+    type: sum
     sql: ${TABLE}.retail_price ;;
   }
 
